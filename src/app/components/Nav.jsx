@@ -8,7 +8,7 @@ const Nav = () => {
       <Link href="/grayscale">グレースケール化</Link>
       <Link href="/brightness">明るさの変換</Link>
       <Link href="/specialEffects">特殊効果</Link>
-      <Link href="/">空間フィルタリング</Link>
+      <Link href="/spatialFiltering">空間フィルタリング</Link>
     </div>
   );
 };

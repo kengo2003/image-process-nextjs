@@ -48,6 +48,7 @@ const page = () => {
   }, []);
   return (
     <div className="text-center">
+      <h2 className="text-2xl pt-5">明るさの変換</h2>
       <form className="py-10">
         <input type="file" id="file" />
         <select id="menu">

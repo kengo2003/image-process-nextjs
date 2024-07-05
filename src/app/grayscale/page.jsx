@@ -43,6 +43,7 @@ const Page = () => {
 
   return (
     <div className="text-center">
+      <h2 className="text-2xl pt-5">グレースケール化</h2>
       <form className="py-10">
         <input type="file" id="file" />
       </form>
