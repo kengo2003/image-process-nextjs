@@ -1,9 +1,13 @@
+"use client";
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <div>
-      <h1 className="text-4xl p-6 font-bold">画像変換フィルタアプリ</h1>
+    <div className="p-6">
+      <Link href="/" className="text-4xl font-bold">
+        画像変換フィルタアプリ
+      </Link>
     </div>
   );
 };
